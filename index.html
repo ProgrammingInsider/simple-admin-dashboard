@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="dashboard">
+       <div>
+           <div class="toggleMenu" id="toggleMenu">
+             <i class="fa-solid fa-arrow-right icon toggelMenuIcon" id="toggelMenuIcon"></i>
+           </div>
+        <div class="sideNav" id="sideNav">
+            <div id="topNav">
+                 <div id="logo">
+                   <span class="logoPic">F</span>
+                   <h1 class="logoName">FinBank</h1>
+                 </div>
+                   <p class="navSectionName">Main Menu</p>
+                 <ul class="nav">
+                   <li class="navLink activeNavLink">
+                       <i class="fa-solid fa-gauge icon"></i>
+                       Dashboard
+                   </li>
+                   <li class="navLink">
+                       <i class="fa-solid fa-dollar-sign icon"></i>Transactions
+                   </li>
+                   <li class="navLink">
+                       <i class="fa-solid fa-credit-card icon"></i>
+                       Card Center
+                   </li>
+                   <li class="navLink">
+                       <i class="fa-solid fa-address-book icon"></i>
+                       Contacts
+                   </li>
+                   <li class="navLink">
+                       <i class="fa-solid fa-wallet icon"></i>
+                       E-wallet Center
+                   </li>
+                   <li class="navLink">
+                       <i class="fa-solid fa-chart-simple icon"></i>
+                       Reports
+                   </li>
+                 </ul>
+                   <p class="navSectionName">Others</p>
+                 <ul class="nav">
+                   <li class="navLink">
+                       <i class="fa-solid fa-gear icon"></i>
+                       Setting
+                   </li>
+                   <li class="navLink">
+                       <i class="fa-solid fa-headset icon"></i>
+                       Help Center
+                   </li>
+                 </ul>
+            </div>
+   
+            <div id="bottomNav">
+               <h3 class="copyright">&copy; FinBank, 2022</h3>
+               <p class="copyDesc">Digital payment platform is a solution for all types of business.</p>
+            </div>
+   
+          </div>
+       </div>
+       <main id="main">
+           <header>
+                <div class="headlineContainer">
+                    <h1 class="headline">Welcome to FinBank</h1>
+                    <p class="subheadline">
+                        Hi, Barly vallendita. Welcome Back
+                    </p>
+                </div>
+
+                <div class="profileContainer">
+                    <div class="iconContainer moonIcon" id="toggleTheme">
+                        <i class="fa-solid fa-moon" id="toggleThemeIcon"></i>
+                    </div>
+                    <div class="iconContainer">
+                        <i class="fa-solid fa-bell notification"></i>
+                    </div>
+                    <div class="profilePic">
+                           <img src="./img/profile.jpg" alt="">
+                    </div>
+                </div>
+           </header>
+
+           <section class="analytics">
+             <div class="analyticsCard">
+                <h3 class="cardHeader">Debit Card Account</h3>
+                 
+                <div class="debitcardContainer">
+                    <div class="debitcardPic">
+                        <img src="./img/debit card.png" alt="debit card">
+                    </div>
+
+                    <div class="addDebitCard">
+                        <div class="addbutton">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        Add Debit Card
+                    </div>
+                </div>
+             </div>
+
+             <div class="analyticsCard totalBalanceCard">
+                <h3 class="cardHeader">Your Total Balance</h3>
+                <h1 class="totalBalance">$80,201.50</h1>
+                <p class="earnDate">Novemeber 28, 2023 . 02:20PM</p>
+
+                <div class="btnContainer">
+                    <div class="btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        send
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        topup
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-braille"></i>
+                        more
+                    </div>
+                </div>
+             </div>
+
+             <div class="analyticsCard">
+                <h3 class="cardHeader cardHeader1">
+                    <span>Recent Transactions</span>
+                    <span class="filterDate"><i class="fa-solid fa-calendar-days"></i> Last 7 Days</span>
+                </h3>
+                
+                <div class="transactionContainer">
+                    <div class="eachTransaction">
+                     <div class="tansactionDesc">
+                         <div class="paymentMethod">
+                          <img src="./img/paypal.png" alt="">
+                         </div>
+                         <div class="paymentStatus">
+                            <h3>Paypal - Received</h3>
+                            <p>
+                                20 December 2023, 08:20 AM
+                            </p>
+                         </div>
+                     </div>
+
+                     <div class="transactionPrice">
+                        <h3 class="earnTransaction">+ $8,200.00</h3>
+                     </div>
+                    </div>
+
+                    <div class="eachTransaction">
+                        <div class="tansactionDesc">
+                            <div class="paymentMethod">
+                             <img src="./img/spotify.png" alt="">
+                            </div>
+                            <div class="paymentStatus">
+                               <h3>Spotify Premium</h3>
+                               <p>
+                                   19 December 2023, 07:17 AM
+                               </p>
+                            </div>
+                        </div>
+   
+                        <div class="transactionPrice">
+                           <h3 class="reduceTransaction">- $199.00</h3>
+                        </div>
+                       </div>
+
+                       <div class="eachTransaction">
+                        <div class="tansactionDesc">
+                            <div class="paymentMethod">
+                             <img src="./img/transferwise.png" alt="">
+                            </div>
+                            <div class="paymentStatus">
+                               <h3>transferwise - Received</h3>
+                               <p>
+                                   19 August 2023, 04:17 PM
+                               </p>
+                            </div>
+                        </div>
+   
+                        <div class="transactionPrice">
+                           <h3 class="earnTransaction">+ $1200.00</h3>
+                        </div>
+                       </div>
+
+                       <div class="eachTransaction">
+                        <div class="tansactionDesc">
+                            <div class="paymentMethod">
+                             <img src="./img/HM.png" alt="">
+                            </div>
+                            <div class="paymentStatus">
+                               <h3>H&M Payment</h3>
+                               <p>
+                                   13 August 2023, 04:17 PM
+                               </p>
+                            </div>
+                        </div>
+   
+                        <div class="transactionPrice">
+                           <h3 class="reduceTransaction">- $2200.00</h3>
+                        </div>
+                       </div>
+                </div>
+
+               
+             </div>
+
+             <div class="analyticsCard totalBalanceCard">
+                <h3 class="cardHeader cardHeader1">
+                    <span>Expenses Instead</span>
+                    <span><i class="fa-solid fa-ellipsis"></i></span>
+                </h3>
+
+                <div class="gaugeContainer">
+                    <div class="gaugeBody">
+                        <div class="gaugeProgress"></div>
+                        <div class="guageNumber">
+                            85.5%<br>
+                            <span class="expenseStatus">Normal Level</span>
+                        </div>
+                    </div>
+                    <div class="totalExpense">Total Exp: 
+                        <span class="totalExpensePrice">$1,820.80</span>
+                    </div>
+                </div>
+            </div>
+           </section>
+
+       </main>
+   </div>
+
+   <script src="./script.js"></script>
+    
+</body>
+</html>
